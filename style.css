@@ -1,0 +1,107 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 30px;
+  min-height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+  text-transform: lowercase;
+  background-color: #e5e5f7;
+  background-image: radial-gradient(#fff 0.2px, rgb(125, 93, 146) 0.5px);
+  background-size: 10px 10px;
+}
+main {
+  background-color: rgb(255, 255, 245);
+  width: 600px;
+  height: auto;
+  margin-top: 100px;
+  border-radius: 6px;
+  padding: 30px 50px;
+  box-shadow: 0 0 6px rgb(255, 255, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  position: relative;
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  text-wrap: pretty;
+  color: rgb(56, 39, 55);
+}
+section {
+  display: flex;
+  column-gap: 35px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-size: 26px;
+  font-weight: 400;
+}
+.one {
+  position: absolute;
+  bottom: 8px;
+  left: 6px;
+  width: 40px;
+}
+.two {
+  position: absolute;
+  bottom: 8px;
+  right: 6px;
+  width: 40px;
+}
+.three {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  width: 40px;
+}
+.four {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  width: 40px;
+}
+a {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(227, 227, 227);
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+    padding: 30px 0;
+    border-radius: 0;
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  section {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    align-items: center;
+  }
+}
